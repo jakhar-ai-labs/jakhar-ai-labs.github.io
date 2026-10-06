@@ -1,0 +1,27 @@
+title: Sarita Jakhar
+tagline: Backend & Generative AI Engineer
+description: >-
+  Notes and lessons on building production GenAI systems — LLM evaluation,
+  guardrails, RAG, and reliable backend architecture.
+author: Sarita Jakhar
+email: sarita21042002@gmail.com
+
+# Appearance
+theme: minima
+minima:
+  skin: dark
+  social_links:
+    - platform: github
+      user_url: "https://github.com/jakhar-ai-labs"
+    - platform: linkedin
+      user_url: "https://www.linkedin.com/in/ms-sarita-jakhar-5a5965202/"
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+header_pages:
+  - about.md
+
+# Show post excerpts on the home page
+show_excerpts: true
